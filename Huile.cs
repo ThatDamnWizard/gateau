@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    class huile
+    class Huile
     {
+        private string sorte;
+
+        public Huile(string sorte)
+        {
+            this.sorte = sorte;
+        }
     }
 }
