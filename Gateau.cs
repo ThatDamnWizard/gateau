@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public class Gateau : IEquatable<>, IComparable<>
     {
-
+        private Humide humide;
     }
 }

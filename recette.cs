@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    class Oeuf
+    class recette
     {
-        public string vegan;
+        private Gateau gateau;
 
-        public Oeuf(string vegan)
+        public recette(Gateau gateau)
         {
-            this.vegan = vegan;
+            this.gateau = gateau;
         }
+
     }
 }
